@@ -1,0 +1,15 @@
+Index: app/src/main/java/com/ibm/mykotlinpro/MainActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/ibm/mykotlinpro/MainActivity.kt	(revision 3b92fd23c75f0af1e3a0947a8f27d132fd6cbf58)
++++ app/src/main/java/com/ibm/mykotlinpro/MainActivity.kt	(date 1627474402632)
+@@ -7,6 +7,7 @@
+ class MainActivity : AppCompatActivity() {
+     override fun onCreate(savedInstanceState: Bundle?) {
+         super.onCreate(savedInstanceState)
++        Log.d("before","setcontent")
+         setContentView(R.layout.activity_main)
+         Log.d("Oncreate","Oncreate function")
+     }
