@@ -9,6 +9,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         Log.d("before","setcontent")
         setContentView(R.layout.activity_main)
+        Log.d("after","setcontent")
+        printing()
         Log.d("Oncreate","Oncreate function")
+    }
+    fun printing() {
+        println("hello")
     }
 }
